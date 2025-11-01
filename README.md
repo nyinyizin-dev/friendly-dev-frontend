@@ -4,6 +4,11 @@ A modern, production-ready template for building full-stack React applications u
 
 [![Open in StackBlitz](https://developer.stackblitz.com/img/open_in_stackblitz.svg)](https://stackblitz.com/github/remix-run/react-router-templates/tree/main/default)
 
+Demo Link -- https://friendly-dev-frontend-chi.vercel.app/
+
+Backend-github link -- https://github.com/nyinyizin-dev/friendly-dev-backend/
+
+
 ## Features
 
 - 🚀 Server-side rendering
