@@ -6,6 +6,9 @@ A modern, production-ready template for building full-stack React applications u
 
 Demo Link -- https://friendly-dev-frontend-chi.vercel.app/
 
+Backend-github link -- https://github.com/nyinyizin-dev/friendly-dev-backend/
+
+
 ## Features
 
 - 🚀 Server-side rendering
