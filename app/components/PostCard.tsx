@@ -1,7 +1,8 @@
-import type { PostMeta } from "~/types";
+import type { Post } from "~/types";
 import { Link } from "react-router";
+import { img } from "framer-motion/client";
 
-const PostCard = ({post}: {post: PostMeta}) => {
+const PostCard = ({post}: {post: Post}) => {
     return (
       <article
        
@@ -11,6 +12,13 @@ const PostCard = ({post}: {post: PostMeta}) => {
         <p className="mb-2 text-sm text-gray-400">
           {new Date(post.date).toLocaleDateString()}
         </p>
+        {post.image && (
+          <img 
+          src={post.image}
+          alt={post.title}
+          className="w-full h-48 object-cover rounded mb-4"
+          />
+        )}
         <p className="mb-4 text-gray-300">{post.excerpt}</p>
         <Link
           to={`/blog/${post.slug}`}
